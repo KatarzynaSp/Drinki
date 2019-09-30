@@ -9,7 +9,7 @@ public class Menu {
         drink.ingredient2.name = "orange juice ";
         drink.ingredient2.volume = 100;
         drink.ingredient3.name = "grenadina ";
-        drink.ingredient3.volume = 20;
+        drink.ingredient3.volume = 20; 
 
         System.out.println("Name: " + drink.name +"\n"
                 + "Price: " + drink.price + "zł" + "\n"
