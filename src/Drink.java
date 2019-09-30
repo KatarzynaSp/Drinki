@@ -1,4 +1,4 @@
-class Drink {
+public class Drink {
     String name;
     Double price;
     boolean alcohol;
