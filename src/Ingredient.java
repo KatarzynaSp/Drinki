@@ -1,4 +1,4 @@
-public class Ingredients {
+public class Ingredient {
     String name;
     double volume;
 }

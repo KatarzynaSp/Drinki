@@ -3,26 +3,26 @@ public class Menu {
         Drink drink = new Drink();
         drink.name = "Tequila Sunrise";
         drink.price = 25.50;
-        drink.alcohol = true;
+        drink.alcoholic = true;
 
-        Ingredients ingredient1 = new Ingredients();
-        ingredient1.name = "tequila ";
-        ingredient1.volume = 50 ;
+        drink.ingredient1 = new Ingredient();
+        drink.ingredient1.name = "tequila ";
+        drink.ingredient1.volume = 50;
 
-        Ingredients ingredient2 = new Ingredients();
-        ingredient2.name = "orange juice ";
-        ingredient2.volume = 100;
+        drink.ingredient2 = new Ingredient();
+        drink.ingredient2.name = "orange juice ";
+        drink.ingredient2.volume = 100;
 
-        Ingredients ingredient3 = new Ingredients();
-        ingredient3.name = "grenadina ";
-        ingredient3.volume = 20;
+        drink.ingredient3 = new Ingredient();
+        drink.ingredient3.name = "grenadina ";
+        drink.ingredient3.volume = 20;
 
-        System.out.println("Name: " + drink.name +"\n"
+        System.out.println("Name: " + drink.name + "\n"
                 + "Price: " + drink.price + "zł" + "\n"
-                + "Alcohol: " + drink.alcohol +"\n"
-                + "Ingredients: " + ingredient1.name + ingredient1.volume + "ml, "
-                + ingredient2.name + ingredient2.volume + "ml, "
-                + ingredient3.name + ingredient3.volume + "ml, " + "\n"
-                + "Volume: " + (ingredient1.volume + ingredient2.volume + ingredient3.volume) + " ml");
+                + "Alcohol: " + drink.alcoholic + "\n"
+                + "Ingredients: " + drink.ingredient1.name + drink.ingredient1.volume + "ml, "
+                + drink.ingredient2.name + drink.ingredient2.volume + "ml, "
+                + drink.ingredient3.name + drink.ingredient3.volume + "ml, " + "\n"
+                + "Volume: " + (drink.ingredient1.volume + drink.ingredient2.volume + drink.ingredient3.volume) + " ml");
     }
 }
